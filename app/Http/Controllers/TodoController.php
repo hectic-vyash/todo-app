@@ -8,6 +8,10 @@ use Illuminate\Http\Request;
 class TodoController extends Controller
 {
     public function index(){
-        return view('todo.index')->with('todos', Todo::all());
+        return view('todos.index')->with('todos', Todo::all());
+    }
+
+    public function show ($todoId){
+        return view('todos.show')->with('todo', Todo::find($todoId));
     }
 }
