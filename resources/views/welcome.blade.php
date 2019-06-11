@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ToDo App
+                    <a href="/todo">ToDo</a>
                 </div>
             </div>
         </div>
