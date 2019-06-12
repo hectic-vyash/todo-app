@@ -7,6 +7,7 @@
             <div class="card card-default">
                 <div class="card-header">
                     ToDo's
+                    <a href="/new-todo" class="btn btn-success btn-sm float-right">New</a>
                 </div>
                 <div class="card-body">
                     <ul class="list-group">
