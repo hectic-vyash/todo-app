@@ -5,15 +5,15 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card card-default">
-                <div class="card-header">
+                <div class="card-header bg-dark font-weight-bold">
                     Description
                 </div>
-                <div class="card-body">
+                <div class="card-body bg-dark">
                     {{$todo->description}}
                 </div>
             </div>
-            <a href="/todos/{{$todo->id}}/edit" class="btn btn-info my-2">Edit</a>
-            <a href="/todos/{{$todo->id}}/delete" class="btn btn-danger  my-2">Delete</a>
+            <a href="/todos/{{$todo->id}}/edit" class="btn btn-info btn-sm my-2">Edit</a>
+            <a href="/todos/{{$todo->id}}/delete" class="btn btn-danger btn-sm my-2">Delete</a>
         </div>
     </div>
 @endsection()
