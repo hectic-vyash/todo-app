@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="/todo">ToDo</a>
+                    <a href="/todos">ToDo</a>
                 </div>
             </div>
         </div>
